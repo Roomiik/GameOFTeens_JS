@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ваш веб-сайт про стартапи</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ваш веб-сайт про стартапи</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#startups">Стартапи</a></li>
+            <li><a href="#submission">Подати заявку</a></li>
+            <li><a href="#events">Події</a></li>
+        </ul>
+    </nav>
+
+    <section id="startups">
+        <h2>Стартапи</h2>
+        <div class="startup-card">
+            <img src="image/startup1.jpg" alt="Startup 1"><br>
+            <h3>Pocketbook</h3><br>
+            <p>Pocketbook — виробник преміальних електронних книг на основі технології електронних чорнил, що була розроблена американською компанією E Ink. Засновниками стартапу були кияни Ігор Попов та Олег Науменко у 2007 році. На етапі створення стартапу штат Pocketbook налічував 12 осіб, а софт для першої електронної книги писала київська команда розробників на базі операційної системи Linux. Зараз Pocketbook — 4-й за величиною серед світових виробників електронних книг.</p><br><br>
+           
+            <a href="https://send.monobank.ua/jar/4w8GakgQXH" class="button">Підтримати</a>
+            <a href="#" class="button">Забронювати зустріч</a>
+        </div>
+
+        <div class="startup-card">
+            <img src="image/startup2.jpg" alt="Startup 2">
+            <h3>Grammarly</h3>
+            <p>Grammarly — програма, ідея якої полягала в запобіганні плагіату в академічних та наукових працях.  Стартап, який спочатку отримав назву MyDropbox, заснували три українці: Олексій Шевченко, Максим Литвин та Дмитро Лідер. Після успішного старту компанію придбала американська компанія, що спеціалізується на освітніх технологіях Blackboard. Вже у 2019 році капіталізація Grammarly перетнула позначку в один мільярд доларів.</p>
+            
+            <a href="https://send.monobank.ua/jar/4w8GakgQXH" class="button">Підтримати</a>
+            <a href="#" class="button">Забронювати зустріч</a>
+        </div>
+
+        <div class="startup-card">
+            <img src="image/startup3.jpg" alt="Startup 3">
+            <h3>U Tomorrow Summit 2023</h3>
+            <p>Незабаром UNIT.City, найбільший інноваційний парк Східної Європи, проведе зустріч провідних керівників східноєвропейських інноваційних компаній, венчурних інвесторів, технологічних стартапів, видатних інтелектуалів та журналістів з метою розвитку партнерства, пошуку нових можливостей для масштабування. бізнесу та визначення глобальних тенденцій —U Tomorrow Summit.</p>
+            
+            <a href="https://send.monobank.ua/jar/4w8GakgQXH" class="button">Підтримати</a>
+            <a href="#" class="button">Забронювати зустріч</a>
+        </div>
+    </section>
+
+    <section id="submission">
+        <h2>Подати заявку</h2>
+        <form onsubmit="return false;">
+            <label for="startup-name">Назва стартапу:</label>
+            <input type="text" id="startup-name" name="startup-name">
+
+            <label for="founders">Засновники:</label>
+            <input type="text" id="founders" name="founders">
+
+            <label for="description">Опис:</label>
+            <textarea id="description" name="description"></textarea>
+
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email">
+
+            <input type="submit" value="Відправити" onclick="submitForm()" class="button">
+        </form>
+    </section>
+
+    <section id="events">
+        <h2>Події</h2>
+        <div class="event-card">
+            <h3>Інноваційна весна</h3>
+            <p>щорічна подія, яка відкриває світ інновацій та підприємництва для містян Львова
+ 
+                три насичених дні нетворкінгу, знайомства та обміну досвідом між студентами, компаніями та професіоналами-дослідниками з університетів
+                 
+                можливість розповісти свою ідею на конкурсі стартапів, у рамках якого переможці отримають грошову винагороду і познайомляться з інвесторами
+                Залучайся і дій!
+                Реєструйся на Міський конкурс стартапів, аби розповісти свою ідею заради змін: https://forms.gle/pLqiaKUFcX1jGSms6 (https://forms.gle/pLqiaKUFcX1jGSms6?fbclid=IwAR2sMmFE1pG3xOo2mYN70hhlKIXpE0SmPSpzCs--eduXN733DGiaxXYACJs)
+                Реєструйся на Науково-технологічну виставку і покажи, що інновації це круто: https://forms.gle/t84jjCqKxfsfohpD9 (https://forms.gle/t84jjCqKxfsfohpD9?fbclid=IwAR1J6-7QU6aQP-gvz0nAiZ9S4Sv5OLYNmuotUWjRf5MLehJh4sDQAkec6L4)</p>
+            <p>Дата: 20 червня 2023</p>
+            <p>Формат: вебінар</p>
+        </div>
+
+        <div class="event-card">
+            <h3>Демодень 1991 Acceleration: First Batch. Шоукейс інновацій</h3>
+            <p>Вам цікаво дізнатися про останні інноваційні продукти та послуги від перспективних українських стартапів? Хочете послухати експертів галузі і познайомитися з підприємцями нової формації? Приєднуйтесь до нас на Демодні 1991 Acceleration: First Batch!
+
+                4 травня 2023 року ми познайомимо інвесторів, tech-спільноту і медіа з роботами стартапів, які пройшли весняну акселерацію 1991: 
+                
+                14:00 – 14:20 – Вітальне слово
+                
+                14:20 – 14:40 – Кейноут спіч
+                
+                14:40 – 16:50 – Пітчі
+                
+                16:50 – 17:00 – Заключне слово
+                Більше про команди читайте на сайті</p>
+            <p>Дата: 25 червня 2023</p>
+            <p>Формат: конференція</p>
+        </div>
+
+        <div class="event-card">
+            <h3>Тема події 2</h3>
+            <p>Короткий опис події 2</p>
+            <p>Дата: 25 червня 2023</p>
+            <p>Формат: конференція</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Ваш веб-сайт про стартапи. Усі права захищені.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

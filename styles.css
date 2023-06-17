@@ -1,0 +1,149 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стилі для стартапів */
+.startup-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.startup-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Стилі для форми подання заявки */
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Стилі для подій */
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ... */
+
+/* Стилі для стартапів */
+.startup-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.startup-card img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.startup-card h3 {
+    margin-top: 0;
+}
+
+.startup-card p {
+    margin-bottom: 0;
+}
+
+/* Адаптація для планшетів і мобільних пристроїв */
+@media only screen and (max-width: 768px) {
+    /* Загальні стилі */
+    body {
+        background-size: contain;
+    }
+
+    /* Стилі для стартапів */
+    .startup-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .startup-card img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
